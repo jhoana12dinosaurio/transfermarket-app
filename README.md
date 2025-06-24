@@ -105,15 +105,38 @@ npm run build
 - Duración de contratos
 - Información de equipos y ligas
 
-## 🎯 Para Estudiantes
+## 🎯 Desafíos para Estudiantes
 
-Este proyecto está diseñado como base educativa. Los estudiantes pueden:
+Este proyecto es tu campo de juego. ¡Haz un **fork** y completa estos desafíos para demostrar tus habilidades en React!
 
-1. **Expandir la base de datos JSON** - Agregar más jugadores y equipos
-2. **Mejorar componentes** - Añadir nuevas funcionalidades
-3. **Personalizar estilos** - Modificar la paleta de colores
-4. **Integrar APIs reales** - Conectar con APIs de fútbol reales
-5. **Agregar funcionalidades** - Sistema de favoritos, comparaciones, etc.
+### 1. 🖼️ Completa las Imágenes y Logos
+Algunos jugadores o equipos podrían no tener una imagen o logo asignado en `src/data/playersData.json`.
+- **Tu Misión:** Investiga y encuentra las URLs de las imágenes para todos los jugadores y los logos de todos los equipos. ¡Asegúrate de que cada perfil se vea completo y profesional!
+
+### 2. ➕ Expande la Base de Datos
+El universo del fútbol es enorme. ¿Por qué limitarse a solo 6 equipos?
+- **Tu Misión:** Agrega al menos 2 equipos nuevos de tu liga favorita y 3 jugadores para cada uno de esos equipos. Esto pondrá a prueba tu comprensión de la estructura de datos. (Por ejemplo Futol Peruano)
+
+### 3. 🔎 Filtros Avanzados por Equipo
+Actualmente, la búsqueda es general. Vamos a mejorarla.
+- **Tu Misión:** Modifica el componente `Header.jsx` para añadir un `select` (menú desplegable) que permita filtrar jugadores por equipo. Deberás obtener la lista de equipos desde `dataService.js` y usar un `useState` para manejar el filtro seleccionado.
+
+### 4. ⭐ Sistema de Jugadores Favoritos
+Todo fan tiene sus jugadores preferidos. ¡Permitamos que los usuarios guarden los suyos!
+- **Tu Misión:**
+    1.  En `PlayerCard.jsx`, agrega un botón (ej. un ícono de estrella) para marcar un jugador como favorito.
+    2.  En `App.jsx`, utiliza `useState` para mantener un array con los IDs de los jugadores favoritos.
+    3.  Crea una nueva sección o un filtro en el `Header.jsx` para mostrar solo los jugadores favoritos.
+    4.  **(Bonus):** Usa `localStorage` para que los favoritos se guarden entre sesiones.
+
+### 5. 📝 Formulario para Añadir Nuevos Jugadores
+Para que la aplicación sea verdaderamente dinámica, necesitamos poder agregar datos sin editar el JSON manualmente.
+- **Tu Misión:**
+    1.  Crea un nuevo componente `AddPlayerForm.jsx`.
+    2.  Diseña un formulario con campos para el nombre, edad, posición, nacionalidad, equipo, etc.
+    3.  Implementa la lógica para manejar el estado del formulario usando `useState`.
+    4.  Crea una nueva función en `dataService.js` llamada `addPlayer` que simule agregar un jugador nuevo al listado (no necesitas guardarlo permanentemente en el archivo JSON, solo actualizar el estado de la aplicación).
+    5.  Agrega un botón en `Header.jsx` que muestre/oculte este formulario.
 
 ## 🎮 Simulación de API
 
