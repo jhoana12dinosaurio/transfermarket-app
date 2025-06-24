@@ -1,0 +1,342 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Real Madrid",
+      "country": "España",
+      "league": "La Liga",
+      "logo": "https://logos-world.net/wp-content/uploads/2020/06/Real-Madrid-Logo.png",
+      "colors": ["#FFFFFF", "#FFD700"]
+    },
+    {
+      "id": 2,
+      "name": "FC Barcelona",
+      "country": "España", 
+      "league": "La Liga",
+      "logo": "https://logos-world.net/wp-content/uploads/2020/06/Barcelona-Logo.png",
+      "colors": ["#004D98", "#A50044"]
+    },
+    {
+      "id": 3,
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "league": "Premier League", 
+      "logo": "https://logos-world.net/wp-content/uploads/2020/06/Manchester-City-Logo.png",
+      "colors": ["#6CABDD", "#FFFFFF"]
+    },
+    {
+      "id": 4,
+      "name": "Paris Saint-Germain",
+      "country": "Francia",
+      "league": "Ligue 1",
+      "logo": "https://logos-world.net/wp-content/uploads/2020/06/Paris-Saint-Germain-Logo.png", 
+      "colors": ["#004170", "#ED1C24"]
+    },
+    {
+      "id": 5,
+      "name": "Bayern Munich",
+      "country": "Alemania",
+      "league": "Bundesliga",
+      "logo": "https://logos-world.net/wp-content/uploads/2020/06/Bayern-Munich-Logo.png",
+      "colors": ["#DC052D", "#FFFFFF"]
+    },
+    {
+      "id": 6,
+      "name": "Liverpool",
+      "country": "Inglaterra", 
+      "league": "Premier League",
+      "logo": "https://logos-world.net/wp-content/uploads/2020/06/Liverpool-Logo.png",
+      "colors": ["#C8102E", "#00B2A9"]
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "name": "Kylian Mbappé",
+      "age": 25,
+      "position": "Delantero",
+      "nationality": "Francia",
+      "teamId": 1,
+      "marketValue": 180000000,
+      "contractUntil": "2029",
+      "goals": 28,
+      "assists": 8,
+      "matches": 35,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/342229-1694609670.jpg?lm=1",
+      "skills": {
+        "pace": 98,
+        "shooting": 92,
+        "passing": 78,
+        "dribbling": 91,
+        "defending": 35,
+        "physical": 82
+      },
+      "trophies": ["Copa del Mundo 2018", "Liga de Campeones", "Ligue 1"],
+      "description": "Extremo y delantero francés conocido por su velocidad excepcional y capacidad goleadora."
+    },
+    {
+      "id": 2,
+      "name": "Vinicius Jr.",
+      "age": 24,
+      "position": "Extremo",
+      "nationality": "Brasil",
+      "teamId": 1,
+      "marketValue": 150000000,
+      "contractUntil": "2027",
+      "goals": 21,
+      "assists": 11,
+      "matches": 38,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371998-1669664875.jpg?lm=1",
+      "skills": {
+        "pace": 95,
+        "shooting": 82,
+        "passing": 75,
+        "dribbling": 94,
+        "defending": 28,
+        "physical": 74
+      },
+      "trophies": ["Liga de Campeones", "La Liga", "Copa América"],
+      "description": "Extremo brasileño destacado por su velocidad, regate y capacidad para desequilibrar."
+    },
+    {
+      "id": 3,
+      "name": "Robert Lewandowski",
+      "age": 35,
+      "position": "Delantero",
+      "nationality": "Polonia",
+      "teamId": 2,
+      "marketValue": 25000000,
+      "contractUntil": "2026",
+      "goals": 32,
+      "assists": 6,
+      "matches": 40,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/38253-1635255627.jpg?lm=1",
+      "skills": {
+        "pace": 72,
+        "shooting": 96,
+        "passing": 81,
+        "dribbling": 84,
+        "defending": 42,
+        "physical": 89
+      },
+      "trophies": ["Liga de Campeones", "Bundesliga", "La Liga"],
+      "description": "Delantero polaco legendario conocido por su instinto goleador y técnica depurada."
+    },
+    {
+      "id": 4,
+      "name": "Pedri",
+      "age": 21,
+      "position": "Centrocampista",
+      "nationality": "España",
+      "teamId": 2,
+      "marketValue": 100000000,
+      "contractUntil": "2026",
+      "goals": 4,
+      "assists": 7,
+      "matches": 28,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/591568-1635255555.jpg?lm=1",
+      "skills": {
+        "pace": 68,
+        "shooting": 72,
+        "passing": 92,
+        "dribbling": 88,
+        "defending": 62,
+        "physical": 65
+      },
+      "trophies": ["La Liga", "Copa del Rey"],
+      "description": "Centrocampista español joven con excelente visión de juego y control del balón."
+    },
+    {
+      "id": 5,
+      "name": "Erling Haaland",
+      "age": 24,
+      "position": "Delantero",
+      "nationality": "Noruega",
+      "teamId": 3,
+      "marketValue": 170000000,
+      "contractUntil": "2027",
+      "goals": 38,
+      "assists": 5,
+      "matches": 41,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/418560-1635255714.jpg?lm=1",
+      "skills": {
+        "pace": 89,
+        "shooting": 95,
+        "passing": 65,
+        "dribbling": 80,
+        "defending": 25,
+        "physical": 95
+      },
+      "trophies": ["Premier League", "Copa FA", "Liga de Campeones"],
+      "description": "Delantero noruego con una capacidad goleadora excepcional y gran presencia física."
+    },
+    {
+      "id": 6,
+      "name": "Kevin De Bruyne",
+      "age": 33,
+      "position": "Centrocampista",
+      "nationality": "Bélgica",
+      "teamId": 3,
+      "marketValue": 75000000,
+      "contractUntil": "2025",
+      "goals": 6,
+      "assists": 18,
+      "matches": 35,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/88755-1635255714.jpg?lm=1",
+      "skills": {
+        "pace": 74,
+        "shooting": 86,
+        "passing": 96,
+        "dribbling": 85,
+        "defending": 68,
+        "physical": 78
+      },
+      "trophies": ["Premier League", "Liga de Campeones"],
+      "description": "Centrocampista belga con una visión de juego excepcional y pase milimétrico."
+    },
+    {
+      "id": 7,
+      "name": "Neymar Jr.",
+      "age": 32,
+      "position": "Extremo",
+      "nationality": "Brasil",
+      "teamId": 4,
+      "marketValue": 90000000,
+      "contractUntil": "2025",
+      "goals": 18,
+      "assists": 12,
+      "matches": 29,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/68290-1635255555.jpg?lm=1",
+      "skills": {
+        "pace": 84,
+        "shooting": 85,
+        "passing": 86,
+        "dribbling": 96,
+        "defending": 26,
+        "physical": 68
+      },
+      "trophies": ["Liga de Campeones", "Ligue 1", "Copa América"],
+      "description": "Extremo brasileño conocido por su técnica excepcional y creatividad en el regate."
+    },
+    {
+      "id": 8,
+      "name": "Lionel Messi",
+      "age": 37,
+      "position": "Extremo",
+      "nationality": "Argentina",
+      "teamId": 4,
+      "marketValue": 25000000,
+      "contractUntil": "2025",
+      "goals": 16,
+      "assists": 14,
+      "matches": 32,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/28003-1635255555.jpg?lm=1",
+      "skills": {
+        "pace": 78,
+        "shooting": 92,
+        "passing": 94,
+        "dribbling": 96,
+        "defending": 35,
+        "physical": 65
+      },
+      "trophies": ["Copa del Mundo 2022", "Liga de Campeones", "Balón de Oro"],
+      "description": "Leyenda argentina considerado uno de los mejores jugadores de todos los tiempos."
+    },
+    {
+      "id": 9,
+      "name": "Harry Kane",
+      "age": 31,
+      "position": "Delantero",
+      "nationality": "Inglaterra",
+      "teamId": 5,
+      "marketValue": 110000000,
+      "contractUntil": "2027",
+      "goals": 36,
+      "assists": 8,
+      "matches": 42,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/132098-1635255714.jpg?lm=1",
+      "skills": {
+        "pace": 78,
+        "shooting": 94,
+        "passing": 84,
+        "dribbling": 82,
+        "defending": 45,
+        "physical": 87
+      },
+      "trophies": ["Bundesliga"],
+      "description": "Delantero inglés con gran instinto goleador y capacidad de juego asociativo."
+    },
+    {
+      "id": 10,
+      "name": "Jamal Musiala",
+      "age": 21,
+      "position": "Centrocampista",
+      "nationality": "Alemania",
+      "teamId": 5,
+      "marketValue": 130000000,
+      "contractUntil": "2026",
+      "goals": 12,
+      "assists": 8,
+      "matches": 38,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/580195-1635255714.jpg?lm=1",
+      "skills": {
+        "pace": 82,
+        "shooting": 79,
+        "passing": 85,
+        "dribbling": 93,
+        "defending": 52,
+        "physical": 72
+      },
+      "trophies": ["Bundesliga", "Copa del Mundo 2022"],
+      "description": "Centrocampista alemán joven con gran técnica y capacidad de regate."
+    },
+    {
+      "id": 11,
+      "name": "Mohamed Salah",
+      "age": 32,
+      "position": "Extremo",
+      "nationality": "Egipto",
+      "teamId": 6,
+      "marketValue": 65000000,
+      "contractUntil": "2025",
+      "goals": 25,
+      "assists": 14,
+      "matches": 40,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/148455-1635255714.jpg?lm=1",
+      "skills": {
+        "pace": 88,
+        "shooting": 89,
+        "passing": 82,
+        "dribbling": 90,
+        "defending": 45,
+        "physical": 75
+      },
+      "trophies": ["Liga de Campeones", "Premier League"],
+      "description": "Extremo egipcio conocido por su velocidad, definición y capacidad goleadora."
+    },
+    {
+      "id": 12,
+      "name": "Virgil van Dijk",
+      "age": 33,
+      "position": "Defensa Central",
+      "nationality": "Países Bajos",
+      "teamId": 6,
+      "marketValue": 35000000,
+      "contractUntil": "2025",
+      "goals": 3,
+      "assists": 2,
+      "matches": 37,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/139208-1635255714.jpg?lm=1",
+      "skills": {
+        "pace": 78,
+        "shooting": 62,
+        "passing": 89,
+        "dribbling": 72,
+        "defending": 96,
+        "physical": 94
+      },
+      "trophies": ["Liga de Campeones", "Premier League"],
+      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
+    }
+  ]
+}
