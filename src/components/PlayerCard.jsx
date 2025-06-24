@@ -2,7 +2,9 @@ import React from 'react';
 import dataService from '../services/dataService';
 
 const PlayerCard = ({ player, onClick }) => {
-  const teamName = dataService.getTeamName(player.teamId);
+  const team = dataService.getTeam(player.teamId);
+  const teamName = team?.name || 'Sin equipo';
+  const teamLogo = team?.logo;
   const marketValue = dataService.formatMarketValue(player.marketValue);
 
   const getPositionColor = (position) => {
@@ -34,7 +36,20 @@ const PlayerCard = ({ player, onClick }) => {
       <div className="p-6">
         <div className="flex items-center space-x-4">
           <div className="flex-shrink-0">
-            <div className="w-16 h-16 bg-gradient-to-br from-transfermarket-blue to-transfermarket-green rounded-full flex items-center justify-center text-white font-bold text-xl">
+            {player.photo ? (
+              <img 
+                src={player.photo} 
+                alt={player.name}
+                className="w-16 h-16 rounded-full object-cover border-2 border-gray-200"
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.nextSibling.style.display = 'flex';
+                }}
+              />
+            ) : null}
+            <div 
+              className={`w-16 h-16 bg-gradient-to-br from-transfermarket-blue to-transfermarket-green rounded-full flex items-center justify-center text-white font-bold text-xl ${player.photo ? 'hidden' : ''}`}
+            >
               {player.name.split(' ').map(n => n[0]).join('').substring(0, 2)}
             </div>
           </div>
@@ -50,6 +65,14 @@ const PlayerCard = ({ player, onClick }) => {
             </div>
             
             <div className="mt-1 flex items-center space-x-2">
+              {teamLogo && (
+                <img 
+                  src={teamLogo} 
+                  alt={teamName}
+                  className="w-4 h-4 object-contain"
+                  onError={(e) => e.target.style.display = 'none'}
+                />
+              )}
               <span className="text-sm text-gray-600">{teamName}</span>
               <span className="text-gray-400">•</span>
               <span className="text-sm text-gray-600">{player.age} años</span>

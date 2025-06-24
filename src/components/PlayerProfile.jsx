@@ -54,7 +54,18 @@ const PlayerProfile = ({ player, onClose }) => {
           
           <div className="bg-gradient-to-r from-transfermarket-blue to-transfermarket-green p-8 text-white">
             <div className="flex items-center space-x-6">
-              <div className="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center text-white font-bold text-3xl">
+              {player.photo ? (
+                <img 
+                  src={player.photo} 
+                  alt={player.name}
+                  className="w-24 h-24 rounded-full object-cover border-4 border-white/30"
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                    e.target.nextSibling.style.display = 'flex';
+                  }}
+                />
+              ) : null}
+              <div className={`w-24 h-24 bg-white/20 rounded-full flex items-center justify-center text-white font-bold text-3xl ${player.photo ? 'hidden' : ''}`}>
                 {player.name.split(' ').map(n => n[0]).join('').substring(0, 2)}
               </div>
               
@@ -68,8 +79,18 @@ const PlayerProfile = ({ player, onClose }) => {
                   <span>🏳️ {player.nationality}</span>
                 </div>
                 {team && (
-                  <div className="mt-2 text-goal-yellow font-semibold">
-                    {team.name} - {team.league}
+                  <div className="mt-2 flex items-center space-x-2">
+                    {team.logo && (
+                      <img 
+                        src={team.logo} 
+                        alt={team.name}
+                        className="w-6 h-6 object-contain"
+                        onError={(e) => e.target.style.display = 'none'}
+                      />
+                    )}
+                    <span className="text-goal-yellow font-semibold">
+                      {team.name} - {team.league}
+                    </span>
                   </div>
                 )}
               </div>
