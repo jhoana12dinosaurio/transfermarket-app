@@ -331,28 +331,154 @@
       "description": "Extremo egipcio conocido por su velocidad, definición y capacidad goleadora."
     },
     {
-      "id": 12,
-      "name": "Virgil van Dijk",
-      "age": 33,
-      "position": "Defensa Central",
-      "nationality": "Países Bajos",
-      "teamId": 6,
-      "marketValue": 35000000,
-      "contractUntil": "2025",
-      "goals": 3,
-      "assists": 2,
-      "matches": 37,
-      "photo": "data:image/jpeg;base64,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",
-      "skills": {
-        "pace": 78,
-        "shooting": 62,
-        "passing": 89,
-        "dribbling": 72,
-        "defending": 96,
-        "physical": 94
-      },
-      "trophies": ["Liga de Campeones", "Premier League"],
-      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
-    }
+  "id": 12,
+  "name": "Germán Cano",
+  "age": 37,
+  "position": "Delantero Centro",
+  "nationality": "Argentina",
+  "teamId": 9,
+  "marketValue": 2500000,
+  "contractUntil": "2025",
+  "goals": 30,
+  "assists": 4,
+  "matches": 48,
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Germ%C3%A1n_Cano_-_Fluminense.jpg/800px-Germ%C3%A1n_Cano_-_Fluminense.jpg",
+  "skills": {
+    "pace": 72,
+    "shooting": 88,
+    "passing": 72,
+    "dribbling": 75,
+    "defending": 30,
+    "physical": 80
+  },
+  "trophies": ["Copa Libertadores", "Carioca"],
+  "description": "Delantero argentino goleador, experto en definición y movimientos en el área."
+},
+{
+  "id": 13,
+  "name": "Marcelo Vieira",
+  "age": 37,
+  "position": "Lateral Izquierdo",
+  "nationality": "Brasil",
+  "teamId": 9,
+  "marketValue": 1500000,
+  "contractUntil": "2025",
+  "goals": 3,
+  "assists": 7,
+  "matches": 40,
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Marcelo_Real_Madrid_2019.jpg/800px-Marcelo_Real_Madrid_2019.jpg",
+  "skills": {
+    "pace": 75,
+    "shooting": 65,
+    "passing": 82,
+    "dribbling": 85,
+    "defending": 72,
+    "physical": 74
+  },
+  "trophies": ["Copa Libertadores", "Carioca"],
+  "description": "Veterano lateral brasileño con gran técnica, visión ofensiva y liderazgo."
+},
+{
+  "id": 14,
+  "name": "André Trindade",
+  "age": 24,
+  "position": "Volante Defensivo",
+  "nationality": "Brasil",
+  "teamId": 9,
+  "marketValue": 25000000,
+  "contractUntil": "2026",
+  "goals": 2,
+  "assists": 5,
+  "matches": 50,
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/André_Trindade_-_Fluminense.jpg/800px-André_Trindade_-_Fluminense.jpg",
+  "skills": {
+    "pace": 78,
+    "shooting": 65,
+    "passing": 80,
+    "dribbling": 78,
+    "defending": 85,
+    "physical": 82
+  },
+  "trophies": ["Copa Libertadores", "Carioca"],
+  "description": "Joven mediocampista defensivo brasileño con gran recuperación, pase y visión táctica."
+},
+{
+  "id": 15,
+  "name": "Hernán Barcos",
+  "age": 41,
+  "position": "Delantero Centro",
+  "nationality": "Argentina",
+  "teamId": 11,
+  "marketValue": 500000,
+  "contractUntil": "2025",
+  "goals": 18,
+  "assists": 6,
+  "matches": 40,
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Hernán_Barcos.jpg/800px-Hernán_Barcos.jpg",
+  "skills": {
+    "pace": 58,
+    "shooting": 80,
+    "passing": 72,
+    "dribbling": 68,
+    "defending": 35,
+    "physical": 82
+  },
+  "trophies": ["Liga 1 Perú"],
+  "description": "Delantero argentino veterano, referente en ataque con gran juego aéreo y definición."
+},
+{
+  "id": 15,
+  "name": "Pablo Sabbag",
+  "age": 28,
+  "position": "Delantero",
+  "nationality": "Colombia",
+  "teamId": 11,
+  "marketValue": 1200000,
+  "contractUntil": "2025",
+  "goals": 14,
+  "assists": 3,
+  "matches": 35,
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pablo_Sabbag_Alianza_Lima.jpg/800px-Pablo_Sabbag_Alianza_Lima.jpg",
+  "skills": {
+    "pace": 74,
+    "shooting": 78,
+    "passing": 68,
+    "dribbling": 72,
+    "defending": 40,
+    "physical": 78
+  },
+  "trophies": ["Liga 1 Perú"],
+  "description": "Delantero colombiano potente con buena definición y presencia física."
+},
+{
+  "id": 16,
+  "name": "Ángelo Campos",
+  "age": 32,
+  "position": "Arquero",
+  "nationality": "Perú",
+  "teamId": 11,
+  "marketValue": 800000,
+  "contractUntil": "2026",
+  "goals": 0,
+  "assists": 0,
+  "matches": 42,
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ángelo_Campos_Alianza_Lima.jpg/800px-Ángelo_Campos_Alianza_Lima.jpg",
+  "skills": {
+    "pace": 50,
+    "shooting": 30,
+    "passing": 65,
+    "dribbling": 55,
+    "defending": 82,
+    "physical": 80
+  },
+  "trophies": ["Liga 1 Perú"],
+  "description": "Arquero peruano seguro y con buenos reflejos, pieza clave en el arco de Alianza Lima."
+}
+
+
+
+
+
+
   ]
 }
